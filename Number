@@ -1,0 +1,8 @@
+num1 = int(input("Enter the number : "))
+
+if num1%2==0:
+    print("Even Number")
+else:
+    print("odd number")
+
+print("True") if num1>2 else print("False")
